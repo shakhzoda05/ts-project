@@ -55,7 +55,7 @@ const Login: React.FC = () => {
       <h2 className="py-5 text-[32px] font-bold">Login page</h2>
       <Form
         name="basic"
-        style={{ width: 600 }}
+        style={{ width: 350 }}
         initialValues={{ remember: true }}
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
@@ -76,7 +76,7 @@ const Login: React.FC = () => {
           <MaskedInput
             size="middle"
             mask="+998 00 000 00 00"
-            placeholder="+998 xx xxx xx xx"
+            placeholder="+998 00 000 00 00"
           />
         </Form.Item>
 

@@ -47,7 +47,7 @@ const SignUp: React.FC = () => {
       <h2 className="py-5 text-[32px] font-bold">Sign-up page</h2>
       <Form
         name="basic"
-        style={{ width: 600 }}
+        style={{ width: 350 }}
         initialValues={{ remember: true }}
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
